@@ -11,8 +11,5 @@ public class Main {
 
         String[] m = str.split("((\\!|\\+|\\&|\\.|\\=|\\-|\\,)\\s)+|(\\s(\\!|\\+|\\&|\\.|\\=|\\-|\\,))+|\\s+|\\=+|\\&+|\\!+|\\-+|\\.+|\\,");
         System.out.println("Вы ввели " + m.length + " слов.");
-        for(String word:m){
-            System.out.println(word);
-        }
     }
 }
