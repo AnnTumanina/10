@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Введите строку:");
         String str = in.nextLine();
 
-        String[] m = str.split("((\\!|\\+|\\&|\\.|\\=|\\-|\\,)\\s)+|(\\s(\\!|\\+|\\&|\\.|\\=|\\-|\\,))+|\\s+|\\=+|\\&+|\\!+|\\-+|\\.+|\\,");
+        String[] m = str.split(" ");
         System.out.println("Вы ввели " + m.length + " слов.");
     }
 }
